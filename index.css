@@ -1,0 +1,124 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    color: black;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.logo {
+    width: 100px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    min-width: 350px;
+    padding-top: 15px;
+    border-radius: 5px;
+    border-right: 3px solid #33333377;
+    border-bottom: 1px solid #33333365;
+}
+
+.content-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #5c6063a6;
+    position: relative;
+    font-weight: 100;
+}
+
+.content-title::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 70px;
+    height: 2px;
+    background: #5c6063a6;
+    transform: translateX(-50%);
+}
+
+.lang {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    color: black;
+}
+
+.lang select {
+    border: none;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+
+input[type='text'],
+input[type='password'] {
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-bottom: 2px solid #bcbabe;
+    background-color: transparent;
+}
+
+.f-pass {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+input[type='submit'] {
+    background-color: #0167cdef;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.new {
+    background-color: #f1f1f0ce;
+    text-align: center;
+    color: black;
+    padding: 10px;
+
+}
+
+.link {
+    color: #07679b;
+    text-decoration: none;
+}
+
+label {
+    color: black;
+    font-weight: 400;
+}
